@@ -34,7 +34,7 @@ export function Header() {
                 </ul>
               </div>
               <div className="nav__icons" style={{padding:'5px'}}>
-                <Link to='/home'>
+                <Link to='/login'>
                 <User className="logoprops" size={30} />
                 </Link>
                 <Link  to='/cart'>
