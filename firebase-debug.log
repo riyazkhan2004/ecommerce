@@ -1,0 +1,44 @@
+[debug] [2023-02-13T12:55:31.785Z] ----------------------------------------------------------------------
+[debug] [2023-02-13T12:55:31.786Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\riyaz\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-02-13T12:55:31.786Z] CLI Version:   11.22.0
+[debug] [2023-02-13T12:55:31.786Z] Platform:      win32
+[debug] [2023-02-13T12:55:31.786Z] Node Version:  v18.6.0
+[debug] [2023-02-13T12:55:31.787Z] Time:          Mon Feb 13 2023 18:25:31 GMT+0530 (India Standard Time)
+[debug] [2023-02-13T12:55:31.787Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-13T12:55:31.863Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-02-13T12:55:31.863Z] > authorizing via signed-in user (riyazkhan03.official@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2023-02-13T12:55:31.871Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-02-13T12:55:31.871Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-02-13T12:55:31.871Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-02-13T12:55:31.878Z] [hub] writing locator at C:\Users\riyaz\AppData\Local\Temp\hub-ecommercewebsite-8a5e5.json
+[debug] [2023-02-13T12:55:31.890Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/ecommercewebsite-8a5e5/sites 
+[debug] [2023-02-13T12:55:32.994Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/ecommercewebsite-8a5e5/sites 200
+[debug] [2023-02-13T12:55:32.994Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/ecommercewebsite-8a5e5/sites {"sites":[{"name":"projects/ecommercewebsite-8a5e5/sites/ecommercewebsite-8a5e5","defaultUrl":"https://ecommercewebsite-8a5e5.web.app","appId":"1:223937186378:web:e44f3a9b9771ffc3ff74b3","type":"DEFAULT_SITE"}]}
+[debug] [2023-02-13T12:55:32.995Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ecommercewebsite-8a5e5/webApps/1:223937186378:web:e44f3a9b9771ffc3ff74b3/config [none]
+[debug] [2023-02-13T12:55:34.373Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ecommercewebsite-8a5e5/webApps/1:223937186378:web:e44f3a9b9771ffc3ff74b3/config 200
+[debug] [2023-02-13T12:55:34.373Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ecommercewebsite-8a5e5/webApps/1:223937186378:web:e44f3a9b9771ffc3ff74b3/config {"projectId":"ecommercewebsite-8a5e5","appId":"1:223937186378:web:e44f3a9b9771ffc3ff74b3","storageBucket":"ecommercewebsite-8a5e5.appspot.com","apiKey":"AIzaSyDcRBhn6HDXQEmb0EQ8rKGp8N8kbinIDHE","authDomain":"ecommercewebsite-8a5e5.firebaseapp.com","messagingSenderId":"223937186378","measurementId":"G-LDVH23K5RT"}
+[debug] [2023-02-13T12:55:34.377Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ecommercewebsite-8a5e5 [none]
+[debug] [2023-02-13T12:55:34.885Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ecommercewebsite-8a5e5 200
+[debug] [2023-02-13T12:55:34.885Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ecommercewebsite-8a5e5 {"projectId":"ecommercewebsite-8a5e5","projectNumber":"223937186378","displayName":"EcommerceWebsite","name":"projects/ecommercewebsite-8a5e5","resources":{"hostingSite":"ecommercewebsite-8a5e5"},"state":"ACTIVE","etag":"1_4cef702e-8230-4602-a4c8-53df8ab7f642"}
+[info] i  hosting[ecommercewebsite-8a5e5]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[ecommercewebsite-8a5e5]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the emulated products have an interaction layer in Emulator UI or it cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [13/Feb/2023:12:55:50 +0000] "GET / HTTP/1.1" 200 314 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0 (Edition std-1)" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [13/Feb/2023:12:55:50 +0000] \"GET / HTTP/1.1\" 200 314 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0 (Edition std-1)\""}}
+[info] i  hosting: 127.0.0.1 - - [13/Feb/2023:12:55:50 +0000] "GET /favicon.ico HTTP/1.1" 200 314 "http://127.0.0.1:5000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0 (Edition std-1)" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [13/Feb/2023:12:55:50 +0000] \"GET /favicon.ico HTTP/1.1\" 200 314 \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0 (Edition std-1)\""}}
