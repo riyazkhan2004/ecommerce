@@ -11,7 +11,7 @@ import { Productdesc } from '../pages/productdesc/productdesc';
 export function Routers() {
   return (
     <Routes>
-      <Route path='/' element={<Navigate to='home'/>}/>
+      <Route exact path='/' component={Home}/>
       <Route path='home' element={<Home/>}/>
       <Route path='shop' element={<Shop/>}/>
       <Route path='cart' element={<Cart/>}/>

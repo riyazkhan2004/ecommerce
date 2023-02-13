@@ -23,7 +23,7 @@
     border-radius: 50px;
 }
 
-.product__item{
+.product__item Link{
     cursor: pointer;
     color: var(--primary-color);
   font-weight: 500;
